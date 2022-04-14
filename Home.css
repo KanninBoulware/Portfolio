@@ -209,10 +209,11 @@ float: center;
   .efoliointro{
     font-size: 35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-     width: 600px;
-     padding-right: 265px;
-      float: right ;
-      margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 20%;
+    margin-top: -10px;
+    width: 35%;
+    float: right;
   }
   .me2{
     max-width: 400px;
