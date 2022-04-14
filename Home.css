@@ -1,0 +1,273 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    background-image:url(pics/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .own{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  .welcome {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+  }
+.header {
+  overflow: hidden;
+  background-color: #6a4a3c;
+  padding: 20px 30px;
+}
+.name a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-right a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a:hover {
+  background-color: #cc4759;
+
+}
+.header a.active {
+  background-color: #cc4759;
+  color: #cccc00;
+}
+.header-right {
+  float: right;
+ 
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;   
+  }
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #804000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #6a4a3c;
+  max-width: 130px;
+  margin-top: 50px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #cc4759;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.text{
+  margin-left: 20px;
+}
+.active{
+  margin-left: 20px;
+}
+.name{
+  font-size: 100px;
+}
+.me{
+max-width: 400px;
+border-radius: 50%;
+float: left;   
+margin: 30px 12px 3px 4px;   
+margin-left: 4%;
+box-shadow: 20px 10px;
+}
+.edu{
+  font-size: 75%;
+  float: right;
+}
+.intro{
+  margin-right: 5%;
+  display: block;
+}
+
+.cbut{
+background-color: #debd04;
+font-weight: bolder;
+margin: 20px;
+  font-size: 20px;
+  padding: 40px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: black;
+  color: black;
+}
+.sbut{
+background-color: #e62102;
+margin-right: 100px;
+font-weight: bolder;
+margin: 20px;
+  font-size: 20px;
+  padding: 40px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: black;
+  color: black;
+}
+.pbut{
+background-color: orange;
+font-weight: bolder;
+margin: 20px;
+  font-size: 20px;
+  padding: 40px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: black;
+  color: black;
+}
+.abut{
+background-color: #e33900;
+font-weight: bolder;
+margin: 20px;
+  font-size: 20px;
+  padding: 40px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: black;
+  color: black;
+}
+.credentials{
+  float: none;
+    display: block;
+    text-align: center;
+  }
+  .philosophy{
+    float: right;
+    width: 65%;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+  }
+  .hands-on{
+    float: left;
+margin-left: 2%;
+margin-top: 5%;
+width: 30%;
+box-shadow: 10px 10px;
+    border-radius: 5%;
+  }
+  .teaching{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-bottom: -2%;
+    font-size: 70px;
+float: center;
+  }
+  .theories{
+    background-color: #00A0b0;
+  }
+  .efoliointro{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     width: 600px;
+     padding-right: 265px;
+      float: right ;
+      margin-top: -10px;
+  }
+  .me2{
+    max-width: 400px;
+    float: left; 
+    margin-left: 10%;
+    border-radius: 5%;
+    box-shadow: 10px 10px;
+  }
+  .aboutme{
+    float: right;
+    max-width: 50%;
+    font-size: 35px;
+    margin-right: 10%;
+  }
+  .abintro{
+    font-size: 70px;
+ margin-left: 30%;
+margin-bottom: -1%;
+ 
+  }
+.standbut {
+  appearance: none;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.standbut:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+.standbut:active {
+  transform: scale(1.025);
+}
+@media (min-width: 768px) {
+  .standbut {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
