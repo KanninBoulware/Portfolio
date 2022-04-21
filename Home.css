@@ -225,7 +225,7 @@ float: center;
   .aboutme{
     float: right;
     max-width: 50%;
-    font-size: 35px;
+    font-size: 40px;
     margin-right: 10%;
   }
   .abintro{
@@ -245,9 +245,9 @@ margin-bottom: -1%;
   cursor: pointer;
   width: 150px;
   display: block;
-  border:none;
+  border:black;
    background-color:#00A0b0;
-   border-color: #00a0b1;
+   border-color: black;
    outline:none;
    border-radius: 45%;
 }
@@ -262,4 +262,17 @@ margin-bottom: -1%;
 .artbut{
   float: right;
   margin-right: 42%;
+}
+.techwise{
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #00A0b0;
+}
+.aboutme2{
+  float: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 40px;
+    margin-top: -1%;
+   
 }
