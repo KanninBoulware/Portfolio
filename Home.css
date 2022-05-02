@@ -175,10 +175,10 @@ margin: 20px;
   border-color: black;
   color: black;
 }
-.credentials{
-  float: none;
+.recommendations{
+  float: left;
     display: block;
-    text-align: center;
+   
   }
   .philosophy{
     float: right;
@@ -275,4 +275,37 @@ margin-bottom: -1%;
     font-size: 40px;
     margin-top: -1%;
    
+}
+.standards{
+  width: 40%;
+  text-align: center;
+  margin-left: 28%;
+  margin-right:28%;
+  margin-top: 5%;
+  font-size: 120%;
+  border-radius: 25px;
+  background-color: #00A0b0;
+  padding: 2%;
+  color: white;
+}
+.standard3{
+  float: left;
+  width: 25%;
+  padding: 2%;
+}
+.artifact3{
+  float: right;
+  width: 25%;
+  padding: 2%;
+}
+.scite{
+  
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  font-size: 100%; margin-bottom: 3%;
+}
+b{
+  font-size: 115%;
 }
