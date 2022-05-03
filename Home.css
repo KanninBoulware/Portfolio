@@ -175,11 +175,7 @@ margin: 20px;
   border-color: black;
   color: black;
 }
-.recommendations{
-  float: left;
-    display: block;
-   
-  }
+
   .philosophy{
     float: right;
     width: 65%;
@@ -299,7 +295,6 @@ margin-bottom: -1%;
   padding: 2%;
 }
 .scite{
-  
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
@@ -308,4 +303,63 @@ margin-bottom: -1%;
 }
 b{
   font-size: 115%;
+}
+.standardbut{
+  text-align: center;
+  padding: 2%;
+  margin-top: 35%;
+  margin-left: -20%;
+  float: left;
+  background-color: #00A0b0;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.artifactbut{
+  text-align: center;
+  padding: 2%;
+  margin-top: 35%;
+  margin-right: -20%;
+  float: right;
+  background-color: #00A0b0;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+}
+.letters{
+  float: left;
+    display: block;
+    
+}
+.lettern{
+ margin-left: -70%;
+}
+.letter{
+  float: left;
+  display: block;
+}
+.buiscard{
+  float: right;
+  display: block;
+  margin-right: 10%;
+}
+.buisgrp{
+  margin-top: -4%;
+  margin-right: 10%;
+
+}
+.buisn{
+  margin-right: -80%;
+}
+.credentials{
+  padding: 2%;
+}
+.linkedin{
+  margin-left: -15%;
+
+}
+.resume{
+  margin-right: -10%;
+margin-top: -5%;
 }
