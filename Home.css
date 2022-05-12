@@ -261,7 +261,7 @@ margin-bottom: -1%;
 }
 .techwise{
   text-decoration: none;
-  color: aliceblue;
+  color: black;
   background-color: #00A0b0;
 }
 .aboutme2{
@@ -278,7 +278,7 @@ margin-bottom: -1%;
   margin-left: 28%;
   margin-right:28%;
   margin-top: 5%;
-  font-size: 120%;
+  font-size: 160%;
   border-radius: 25px;
   background-color: #00A0b0;
   padding: 2%;
@@ -362,4 +362,12 @@ b{
 .resume{
   margin-right: -10%;
 margin-top: -5%;
+}
+.pcitations{
+  display: block; 
+  margin-top: 20%;
+  padding: 20%;
+}
+.important{
+  
 }
